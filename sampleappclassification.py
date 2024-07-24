@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import sklearn
 from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
 @st.cache_data
